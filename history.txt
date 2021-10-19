@@ -1,0 +1,604 @@
+    1  sudo apt-get remove docker docker-engine docker.io containerd runc
+    2  sudo apt-get update
+    3  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg     lsb-release
+    4  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    5  echo   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+    6    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    7  sudo apt-get update
+    8  sudo apt-get install docker-ce docker-ce-cli containerd.io
+    9  apt-cache madison docker-ce
+   10  sudo apt-get install docker-ce=5:20.10.8~3-0~ubuntu-focal docker-ce-cli=5:20.10.8~3-0~ubuntu-focal containerd.io
+   11  sudo docker run hello-world
+   12  sudo dpkg -i /path/to/package.deb
+   13  sudo groupadd docker
+   14  sudo usermod -aG docker $ben
+   15  sudo usermod -aG docker $BEN
+   16  sudo usermod -aG docker $USER
+   17  newgrp docker 
+   18  docker run hello-world
+   19  sudo systemctl enable docker.service
+   20  sudo systemctl enable containerd.service
+   21  sudo systemctl edit docker.service
+   22  sudo systemctl daemon-reload
+   23  sudo systemctl restart docker.service
+   24  sudo apt get netstat
+   25  sudo apt install netstat
+   26  docker run hello-world
+   27  sudo docker run hello-world
+   28  sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   29  sudo chmod +x /usr/local/bin/docker-compose
+   30  sudo apt get vim
+   31  docker-compose up
+   32  sudo docker-compose up
+   33  docker-compose up
+   34  cd Umuzi/
+   35  LS
+   36  ls
+   37  cd Berned-Ndebe-200-sql-/
+   38  ls
+   39  docker-compose up
+   40  docker-compose up
+   41  cd Umuzi/
+   42  cd Berned-Ndebe-200-sql-/
+   43  ls
+   44  cd docker-compose/
+   45  docker-compose up
+   46  cd ..
+   47  docker-compose up
+   48  psql --host=postgres --username=user --dbname=shop
+   49  sudo apt install postgresql-client-common
+   50  psql --host=postgres --username=user --dbname=shop
+   51  docker-compose run postgres bash
+   52  cd Umuzi/
+   53  cd Berned-Ndebe-200-sql-/
+   54  ls
+   55  git status
+   56  git branch
+   57  git add .
+   58  git status
+   59  git commit -m "Implementing requested changes"
+   60  git config --global user.email "bernedndebe@gmail.com"
+   61  git config --global user.name "Berned"
+   62  git commit -m "Implementing requested changes"
+   63  git push -u origin Shop_database 
+   64  sudo apt-get -y update
+   65  wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+   66  sudo snap install rocketchat-desktop
+   67  git status
+   68  git add *.java
+   69  git status
+   70  git commit -m "Fixing tests"
+   71  git push -u origin dice 
+   72  cd Umuzi/
+   73  xs ..
+   74  cd ..
+   75  git clone https://github.com/Umuzi-org/Berned-Ndebe-227-dice-java.git
+   76  cd Berned-Ndebe-227-dice-java/
+   77  git checkout dice 
+   78  cd ..
+   79  git clone https://github.com/Umuzi-org/Charles-Moswane-269-password-checker-java.git
+   80  cd Charles-Moswane-269-password-checker-java/
+   81  git checkout PasswordChecker 
+   82  xs ..
+   83  cd ..
+   84  git clone https://github.com/Umuzi-org/Berned-Ndebe-184-assertive-programming-kata-java.git
+   85  cd Berned-Ndebe-184-assertive-programming-kata-java/
+   86  git checkout MorseCode 
+   87  git clone https://github.com/Umuzi-org/Berned-Ndebe-625-validate-a-south-african-id-number-java.git
+   88  cd Berned-Ndebe-625-validate-a-south-african-id-number-java/
+   89  git checkout validateSAId 
+   90  ls
+   91  vim .gitignore
+   92  sudo apt install vim 
+   93  vim .gitingore
+   94  ls
+   95  ls -a
+   96  git status
+   97  git add *
+   98  git status
+   99  git add .
+  100  git status
+  101  git commit -m "add .gitignore"
+  102  git push -u origin validateSAId 
+  103  cd ..
+  104  sudo apt install openjdk-11-jdk-headless
+  105  cd "~/Desktop"
+  106  cd Desktop
+  107  ls
+  108  java -jar robocode-a.b.c.d-setup.jar
+  109  sudo java -jar robocode-a.b.c.d-setup.jar
+  110  java -jar robocode-1.9.4.3-setup.jar
+  111  sudo java -jar robocode-1.9.4.3-setup.jar
+  112  tree
+  113  ls
+  114  java -ea out.production.Berned-Ndebe-184-assertive-programming-kata-java.com.company.Main 
+  115  cd out/production/Berned-Ndebe-184-assertive-programming-kata-java/
+  116  ls
+  117  java -ea com.company.Main 
+  118  javac -ea com/company/Main.java
+  119  java -ea com.company.Main 
+  120  git status
+  121  cd ..cd ..
+  122  cd ..
+  123  ls
+  124  cd ..
+  125  ls
+  126  vim .gitignore
+  127  git status
+  128  git add Main.java 
+  129  git status
+  130  git commit -u "Fixing assertions"
+  131  git push -u origin MorseCode 
+  132  git status
+  133  git commit -m "Fixing assertions"
+  134  git push -u origin MorseCode 
+  135  git clone https://github.com/Umuzi-org/Oreneile-Sejeso-224-animals-part-1-oop-basics-java.git
+  136  cd Oreneile-Sejeso-224-animals-part-1-oop-basics-java/
+  137  git checkout part-2-adding-tests 
+  138  cd ..
+  139  sudo snap install tree  # version 1.8.0+pkg-3fd6
+  140  cd Oreneile-Sejeso-224-animals-part-1-oop-basics-java/
+  141  tree
+  142  git branch
+  143  tree
+  144  tree
+  145  git status
+  146  git add *.java
+  147  git status
+  148  git commit -m "Removing unnecessary files"
+  149  git push -u origin validateSAId 
+  150  git clone https://github.com/Umuzi-org/Berned-Ndebe-224-animals-part-1-oop-basics-java.git
+  151  mkdir h
+  152  cd h/
+  153  git clone https://github.com/Umuzi-org/Berned-Ndebe-625-validate-a-south-african-id-number-java.git
+  154  cd Berned-Ndebe-625-validate-a-south-african-id-number-java/
+  155  git checkout validateSAId 
+  156  ls
+  157  cd src/
+  158  ls
+  159  java ea Morse.java 
+  160  java -ea Morse.java 
+  161  git clone https://github.com/Umuzi-org/Takalani-Mufamadi-625-validate-a-south-african-id-number-java.git
+  162  cd Takalani-Mufamadi-625-validate-a-south-african-id-number-java/
+  163  git checkout solution 
+  164  git status
+  165  git add src/main/java/ValidateID.java 
+  166  git status
+  167  git commit -m "Adding main method"
+  168  git push -u origin validateSAId 
+  169  git clone https://github.com/Umuzi-org/Berned-Ndebe-227-dice-java.git
+  170  cd Berned-Ndebe-227-dice-java/
+  171  git checkout dice 
+  172  git clone https://github.com/Umuzi-org/Berned-Ndebe-625-validate-a-south-african-id-number-java.git
+  173  cd Berned-Ndebe-625-validate-a-south-african-id-number-java/
+  174  git checkout validateSAId 
+  175  cd ..
+  176  docker-compose up
+  177  git clone https://github.com/Umuzi-org/Berned-Ndebe-200-sql-.git
+  178  cd Berned-Ndebe-200-sql-/
+  179  git checkout Shop_database 
+  180  docker-compose up
+  181  cd Umuzi/
+  182  cd Berned-Ndebe-200-sql-/
+  183  ls
+  184  git status
+  185  git branch
+  186  git add *.sql
+  187  git status
+  188  git commit -m "implementing requested changes"
+  189  git push -u origin Shop_database 
+  190  git clone https://github.com/Umuzi-org/Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java.git
+  191  cd Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java/
+  192  git checkout validateUpdate 
+  193  docker-compose up
+  194  cd Umuzi/
+  195  cd Berned-Ndebe-200-sql-/
+  196  git status
+  197  git add *.sql
+  198  git commit -m "Implementing changes"
+  199  git push -u origin Shop_database 
+  200  cd ..
+  201  ls
+  202  git clone https://github.com/Umuzi-org/Berned-Ndebe-227-dice-java.git
+  203  cd Berned-Ndebe-
+  204  cd Berned-Ndebe-227-dice-java/
+  205  git clone https://github.com/Umuzi-org/Takalani-Mufamadi-625-validate-a-south-african-id-number-java.git
+  206  cd Takalani-Mufamadi-625-validate-a-south-african-id-number-java/
+  207  git checkout solution 
+  208  git clone https://github.com/Umuzi-org/Takalani-Mufamadi-224-animals-part-1-oop-basics-java.git
+  209  cd Takalani-Mufamadi-224-animals-part-1-oop-basics-java/
+  210  git checkout animals-part-2 
+  211  git status
+  212  git add *.java
+  213  git commit -m "Fixing dependencies"
+  214  git branch
+  215  cd ..
+  216  cd ../../..
+  217  cd ..
+  218  ls
+  219  cd Umuzi/
+  220  git clone https://github.com/Umuzi-org/Berned-Ndebe-227-dice-java.git
+  221  cd Berned-Ndebe-227-dice-java/
+  222  git checkout dice 
+  223  git status
+  224  git push -u origin dice 
+  225  ls
+  226  cd src
+  227  ls
+  228  cd com
+  229  ls
+  230  cd example/
+  231  ls
+  232  cd morsecode/
+  233  ls
+  234  java -ea MorseCode.java
+  235  cd ../../..
+  236  tree
+  237  git clone https://github.com/Umuzi-org/Oreneile-Sejeso-224-animals-part-1-oop-basics-java.git
+  238  https://github.com/Umuzi-org/Oreneile-Sejeso-224-animals-part-1-oop-basics-java.git
+  239  git clone https://github.com/Umuzi-org/Oreneile-Sejeso-224-animals-part-1-oop-basics-java.git
+  240  cd Oreneile-Sejeso-224-animals-part-1-oop-basics-java/
+  241  git checkout requested-changes 
+  242  tree
+  243  cd ..
+  244  git clone https://github.com/Umuzi-org/HlulaniTrevor-Nkuna-184-assertive-programming-kata-java.git
+  245  cd HlulaniTrevor-Nkuna-184-assertive-programming-kata-java/
+  246  git checkout testBranch 
+  247  cd ..
+  248  git clone https://github.com/Umuzi-org/Oreneile-Sejeso-625-validate-a-south-african-id-number-java.git
+  249  cd Oreneile-Sejeso-625-validate-a-south-african-id-number-java/
+  250  git checkout validate-sa-id-number 
+  251  cd ..
+  252  git clone https://github.com/Umuzi-org/HlulaniTrevor-Nkuna-625-validate-a-south-african-id-number-java.git
+  253  cd HlulaniTrevor-Nkuna-625-validate-a-south-african-id-number-java/
+  254  git checkout Test_Branch 
+  255  cd Umuzi/
+  256  cd Linked\ List/
+  257  ls
+  258  cd src/
+  259  ls
+  260  javac *.java
+  261  java TestProgram 
+  262  git clone https://github.com/Umuzi-org/Takalani-Mufamadi-224-animals-part-1-oop-basics-java.git
+  263  cd Takalani-Mufamadi-224-animals-part-1-oop-basics-java/
+  264  git checkout animals-part-2 
+  265  tree
+  266  tree
+  267  man curl
+  268  curl https://api.github.com/zen
+  269  curl https://api.github.com/users/defunkt
+  270  curl -1 https://api.github.com/users/defunkt
+  271  curl -i https://api.github.com/users/defunkt
+  272  curl -i -u Berned-Dev https://api.github.com/users/octocat
+  273  curl -i -u Berned-Dev https://api.github.com/users
+  274  curl -i -u Berned-Dev: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 https://api.github.com/user
+  275  curl https://api.github.com/users/Berned-Dev/repos
+  276  git clone https://github.com/Umuzi-org/Berned-Ndebe-200-sql-.git
+  277  cd Berned-Ndebe-200-sql-/
+  278  git checkout Shop_database 
+  279  git status
+  280  git add *
+  281  git status
+  282  git commit -m "Fixing statement that does beyong the edge"
+  283  git push -u origin Shop_database 
+  284  git clone https://github.com/Umuzi-org/Takalani-Mufamadi-224-animals-part-1-oop-basics-java.git
+  285  cd Takalani-Mufamadi-224-animals-part-1-oop-basics-java/
+  286  git checkout animals-part-2 
+  287  cd NWU/
+  288  cd LinkedList\ Palindrome/
+  289  cd src/
+  290  ls
+  291  javac *.java
+  292  java TestProgram 
+  293  javac *.java
+  294  java TestProgram 
+  295  javac *.java
+  296  java TestProgram 
+  297  ls
+  298  cd Documents/
+  299  ls
+  300  javac *.java
+  301  java TestProgram 
+  302  git status
+  303  git add *.java
+  304  git status
+  305  git commit -m "Fixing test import"
+  306  git push -u origin dice 
+  307  git clone https://github.com/Umuzi-org/Berned-Ndebe-227-dice-java.git
+  308  cd Berned-Ndebe-227-dice-java/
+  309  git checkout dice 
+  310  git clone https://github.com/Umuzi-org/Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java.git
+  311  cd Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java/
+  312  git checkout validateUpdate 
+  313  cd Umuzi/
+  314  git clone https://github.com/Umuzi-org/Berned-Ndebe-186-consume-github-api-java.git
+  315  git clone https://github.com/Umuzi-org/Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java.git
+  316  cd Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java/
+  317  git checkout validateUpdate 
+  318  cd ..
+  319  cd Umuzi/
+  320  ls
+  321  cd Berned-Ndebe-186-consume-github-api-java/
+  322  ls
+  323  ls -a
+  324  rm .gitignore
+  325  rm .gitignore.swp
+  326  ls -a
+  327  vim
+  328  ls -a
+  329  touch .gitignore
+  330  vim .gitignore 
+  331  ls
+  332  ls -a
+  333  git status
+  334  rm .swp
+  335  git add *
+  336  git status
+  337  git add .gitignore 
+  338  git status
+  339  git commit -m "initial commit"
+  340  git checkout -b githUb API
+  341  git status
+  342  git push -u origin github API
+  343  LS
+  344  ls
+  345  ls -a
+  346  cd ..
+  347  git status
+  348  vim .gitignore
+  349  git status
+  350  rm .gitignore
+  351  git clone https://github.com/Umuzi-org/Berned-Ndebe-186-consume-github-api-java.git
+  352  cd Umuzi/
+  353  cd Berned-Ndebe-186-consume-github-api-java/
+  354  git status
+  355  git clone https://github.com/Umuzi-org/Berned-Ndebe-186-consume-github-api-java.git
+  356  cd Berned-Ndebe-186-consume-github-api-java/
+  357  git branch
+  358  git checkout Github API
+  359  git branch
+  360  git checkout -b Github API
+  361  git checkout -b Github
+  362  GIT BRANCH
+  363  git branch
+  364  ls
+  365  ls -a
+  366  touch .gitignore
+  367  vim .gitignore 
+  368  git status
+  369  git add *
+  370  git add .
+  371  git status
+  372  git commit -m "initial commit"
+  373  git push -u origin Github 
+  374  git status
+  375  git clone https://github.com/Umuzi-org/Berned-Ndebe-186-consume-github-api-java.git
+  376  cd Berned-Ndebe-186-consume-github-api-java/
+  377  git checkout Github 
+  378  git add *.java
+  379  git status
+  380  git commit -m "Reading data"
+  381  git push -u origin Github 
+  382  git status
+  383  git add *
+  384  git status
+  385  git commit -m "final commit for review"
+  386  git push -u origin Github 
+  387  git clone https://github.com/Umuzi-org/Berned-Ndebe-227-dice-java.git
+  388  cd Berned-Ndebe-227-dice-java/
+  389  git checkout dice 
+  390  git status
+  391  git add .
+  392  git status
+  393  git add .
+  394  git status
+  395  git commit -m "Fixing dodgyDie6Test assert statement"
+  396  git push -u origin dice 
+  397  git add .
+  398  git checkout -b stringCalc
+  399  git status
+  400  tree
+  401  git clone https://github.com/Umuzi-org/Berned-Ndebe-266-string-calculator-java.git
+  402  cd Berned-Ndebe-266-string-calculator-java/
+  403  ls
+  404  cat .gitignore
+  405  touch .gitignore
+  406  cat .gitignore 
+  407  ls -a
+  408  vim .gitignore
+  409  cat .gitignore
+  410  git status
+  411  git add .
+  412  git status
+  413  git commit -m "initial commit"
+  414  git push -u origin stringCalc 
+  415  cd ..
+  416  git clone https://github.com/Umuzi-org/Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java.git
+  417  cd Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java/
+  418  git checkout Update 
+  419  git status
+  420  git add src/main/java/StringCalculator.java 
+  421  git commit -m "Working on regex"
+  422  git push -u origin stringCalc 
+  423  docker-compose up
+  424  git --version
+  425  ls
+  426  git clone https://github.com/Umuzi-org/Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java.git
+  427  cd Khethukuthula-Mkhize-625-validate-a-south-african-id-number-java/
+  428  git checkout Update 
+  429  cd ..
+  430  cd Berned-Ndebe-625-validate-a-south-african-id-number-java/
+  431  git status
+  432  git clone https://github.com/Umuzi-org/Berned-Ndebe-625-validate-a-south-african-id-number-java.git
+  433  cd Berned-Ndebe-625-validate-a-south-african-id-number-java/
+  434  git checkout validateSAId 
+  435  cd ..
+  436  git clone https://github.com/Umuzi-org/Berned-Ndebe-625-validate-a-south-african-id-number-java.git
+  437  cd Berned-Ndebe-625-validate-a-south-african-id-number-java/
+  438  ls
+  439  git status
+  440  vim .gitignore
+  441  ls -a
+  442  rm .gitignore
+  443  ls -a
+  444  cat .gitingore 
+  445  git status
+  446  ls -a
+  447  git add .
+  448  ls -a
+  449  git status
+  450  ls
+  451  ls -a
+  452  git add .gitignore
+  453  rm .gitignore
+  454  touch .gitignore
+  455  cat .gitignore
+  456  ls -a
+  457  vim .gitignore
+  458  git add .gitignore 
+  459  git status
+  460  git commit -m "Using a build tool (Gradle)"
+  461  git checkout validateSAId 
+  462  git status
+  463  ls
+  464  ls -a
+  465  rm .gitignore
+  466  vim .gitignore
+  467  ls
+  468  ls -a
+  469  rm .gitignore.swp
+  470  rm .gitignore
+  471  ls -a
+  472  vim .gitignore
+  473  ls -a
+  474  git branch
+  475  git status
+  476  git clone https://github.com/Umuzi-org/Berned-Ndebe-625-validate-a-south-african-id-number-java.git
+  477  cd ..
+  478  git clone https://github.com/JohanPEC/PPS-Management-System.git
+  479  ls
+  480  cd PPS-Management-System/
+  481  git checkout New-Changes-Johan 
+  482  lsd
+  483  ls
+  484  cd WaterSort\ Game/
+  485  ls
+  486  cd src/
+  487  ls
+  488  javac *
+  489  java WaterSort 
+  490  ls
+  491  cd Desktop/
+  492  ls
+  493  cd jj/
+  494  ls
+  495  javac *
+  496  java WaterSort 
+  497  mkdir git-basic-excercises
+  498  ls
+  499  cd git-basic-excercises/
+  500  ls
+  501  la -a
+  502  git init
+  503  ls -a
+  504  git status
+  505  git branch
+  506  git status
+  507  touch README.md
+  508  ls -a
+  509  git status
+  510  git log
+  511  git add
+  512  git add .
+  513  git status
+  514  git rm .
+  515  git rm staged
+  516  git rm --cached
+  517  git status
+  518  git rm --cached README.md 
+  519  git status
+  520  git add .
+  521  git staus
+  522  git status
+  523  git commit -m "initial commit"
+  524  git log
+  525  nano README.md 
+  526  cat README.md 
+  527  git status
+  528  git commit -m "second commit"
+  529  git add .
+  530  git status
+  531  git commit -m "second commit"
+  532  cat README.md 
+  533  nano README.md 
+  534  git status
+  535  cat README.md 
+  536  git status
+  537  git add .
+  538  git status
+  539  git commit -m "Third commit"
+  540  git log
+  541  mkdir git-basic-exercise
+  542  cd git-basic-exercise/
+  543  git init
+  544  git config --global user.email "tianacassandra594"
+  545  git config --global user.name "Cassndra"
+  546  ls
+  547  ls -a
+  548  touch README.md
+  549  git status
+  550  git add .
+  551  git commit -m "initial commit"
+  552  git log
+  553  cd ..
+  554  mkdir git-basic-excersises
+  555  cd git-basic-excersises/
+  556  git init
+  557  git config --global user.email "tianacassandra594@gmail.com"
+  558  git config --global user.name "Cassandra"
+  559  touch README.md
+  560  git status
+  561  git add .
+  562  git commit -m "initial commit"
+  563  git log
+  564  nano README.md 
+  565  cat README.md 
+  566  git add .
+  567  git staus
+  568  git status
+  569  git commit -m "second commit"
+  570  nano README.md 
+  571  git status
+  572  git add .
+  573  git status
+  574  git commit -m "third commit"
+  575  git log
+  576  git checkout c058a2daef7069e41dd1d5964ebe614c2bcc6261
+  577  cat README.md 
+  578  git checkout main
+  579  git checkout master
+  580  cat README.md 
+  581  git branch
+  582  git checkout -b milkshake-flavours
+  583  git branch
+  584  git checkout master 
+  585  git branch
+  586  git checkout milkshake-flavours 
+  587  git branch
+  588  nano milkshakes.md
+  589  git status
+  590  cat milkshakes.md 
+  591  git status
+  592  git add .
+  593  git status
+  594  git commit -m "added initial flavours"
+  595  git log
+  596  git bracnh
+  597  bit branch
+  598  git branch
+  599  git checkout master 
+  600  git checkout -b history
+  601  git bracnh
+  602  git branch
+  603  git log
+  604  history > history.txt
